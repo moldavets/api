@@ -1,14 +1,21 @@
 {
+  "users": [
+    {"id": 1, "login": "admin"},
+    {"id": 2, "login": "manager"},
+    {"id": 3, "login": "user"}
+  ],
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "id": 1, "title": "Post 1", "user": 1 },
+    { "id": 2, "title": "Post 2", "user": 1 },
+    { "id": 3, "title": "Post 3", "user": 2 },
+    { "id": 4, "title": "Post 4", "user": 1 },
+    { "id": 5, "title": "Post 5", "user": 3 }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "moldavets"
   }
 }
